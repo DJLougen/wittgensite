@@ -81,6 +81,31 @@ The 100 prompts are divided into 4 categories to test different failure modes:
 | `scoring/consistency.py` | Cross-run consistency scorer (5 dimensions) |
 | `task.json` | Caduceus task metadata |
 
+## Citation
+
+If you use WittgenSite in your research, benchmarks, leaderboards, blog posts, or products, **you must credit Daniel Lougen** and link to this repository.
+
+**BibTeX:**
+```bibtex
+@misc{lougen2026wittgensite,
+  title={WittgenSite: A Prompt Consistency Benchmark for AI Coding Agents},
+  author={Lougen, Daniel},
+  year={2026},
+  url={https://github.com/DJLougen/wittgensite},
+  note={Inspired by Wittgenstein's philosophy of language}
+}
+```
+
+**Inline citation:** Lougen, D. (2026). *WittgenSite: A Prompt Consistency Benchmark for AI Coding Agents*. https://github.com/DJLougen/wittgensite
+
+GitHub will also show a "Cite this repository" button at the top of the page.
+
 ## License
 
-Apache 2.0
+**CC BY-NC-SA 4.0** — Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+
+- **Attribution required** — credit Daniel Lougen and link to this repo
+- **Non-commercial** — no commercial use without explicit written permission
+- **ShareAlike** — derivatives must use the same license
+
+For commercial licensing, contact [@DJLougen](https://x.com/DJLougen).

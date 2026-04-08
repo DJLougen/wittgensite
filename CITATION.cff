@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "WittgenSite: A Prompt Consistency Benchmark for AI Coding Agents"
+message: "If you use this benchmark, please cite it using the metadata from this file."
+type: dataset
+authors:
+  - given-names: Daniel
+    family-names: Lougen
+    alias: DJLougen
+    orcid: ""
+date-released: "2026-04-08"
+url: "https://github.com/DJLougen/wittgensite"
+repository-code: "https://github.com/DJLougen/wittgensite"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - benchmark
+  - prompt-consistency
+  - ai-agents
+  - coding-agents
+  - wittgenstein
+  - semantic-invariance
+abstract: >-
+  WittgenSite is a benchmark for measuring prompt consistency in AI coding
+  agents. Inspired by Wittgenstein's insight that meaning is use, it tests
+  whether agents produce identical output when given the same task through
+  100 semantically diverse prompts. The benchmark includes a locked golden
+  specification for a 5-page SaaS website, 100 prompts across 4 categories
+  (direct, role-based, verbose, casual/red-herring), and automated scoring
+  for both per-run spec fidelity and cross-run consistency.
