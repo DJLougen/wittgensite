@@ -81,6 +81,17 @@ The 100 prompts are divided into 4 categories to test different failure modes:
 | `scoring/consistency.py` | Cross-run consistency scorer (5 dimensions) |
 | `task.json` | Caduceus task metadata |
 
+## Submission Tiers
+
+| Tier | Min Prompts | Badge | Requirement |
+|------|------------|-------|-------------|
+| **Full** | 100 | Full Benchmark | All prompts, all categories |
+| **Standard** | 50 | Standard | At least 10 from each category |
+| **Minimum** | 25 | Preliminary | At least 5 from each category |
+| < 25 | — | Not accepted | Insufficient for consistency measurement |
+
+Category coverage is mandatory — you can't run 25 "Direct" prompts and skip the rest. The benchmark tests whether role-framing, verbosity, and red herrings cause drift.
+
 ## Citation
 
 If you use WittgenSite in your research, benchmarks, leaderboards, blog posts, or products, **you must credit Daniel Lougen** and link to this repository.
