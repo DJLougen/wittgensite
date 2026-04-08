@@ -1,0 +1,39 @@
+{
+  "id": "T014",
+  "name": "Aether Notes – Golden Spec SaaS Website",
+  "domain": "Web & API",
+  "difficulty": "Hard",
+  "description": "Build a fully functional, self-contained 5-page SaaS marketing website from a locked golden spec. The agent must produce exactly the specified site — dark/light mode, responsive design, WCAG 2.2 AA accessibility, reactive pricing toggle, testimonial carousel, blog with search, and a mock dashboard app — using only vanilla HTML/CSS/JS + Tailwind CDN. Zero creative deviations allowed.",
+  "tools_available": ["terminal", "read_file", "patch", "execute_code"],
+  "environment": {
+    "files": [
+      {"path": "/GOLDEN-SPEC.md", "description": "Complete locked specification — the single source of truth"},
+      {"path": "/scoring/evaluate.py", "description": "Automated scoring script for structural and behavioral validation"}
+    ],
+    "services": [],
+    "preconditions": [
+      "A modern browser (Chrome/Firefox) for testing",
+      "Understanding of HTML5, CSS3, vanilla JavaScript",
+      "Familiarity with Tailwind CSS utility classes",
+      "Knowledge of WCAG 2.2 AA accessibility requirements"
+    ]
+  },
+  "success_criteria": [
+    "Exactly 5 HTML files created: home.html, features.html, pricing.html, blog.html, app.html",
+    "All pages standalone — open correctly by double-clicking the file",
+    "Tech stack: only vanilla HTML/CSS/JS + Tailwind CDN, no frameworks or external libraries",
+    "Full dark/light mode with localStorage persistence and prefers-color-scheme respect",
+    "Shared header and footer identical across all 5 pages",
+    "All copy text matches the golden spec exactly (headlines, subheadlines, button labels)",
+    "WCAG 2.2 AA: semantic HTML, ARIA labels, visible focus rings, skip-to-main link",
+    "Responsive on mobile, tablet, and desktop breakpoints",
+    "Home: hero, 6-card feature grid, 3-step how-it-works, testimonial carousel (auto 5s, pause on hover)",
+    "Pricing: monthly/yearly toggle instantly updates prices with Save 20% badge animation",
+    "Blog: search bar, card grid, sidebar, load-more with fade-in",
+    "App: collapsible sidebar, note list, editor pane, AI Summarize with loading spinner, note modal",
+    "All animations match specified durations (200ms theme, 300ms mobile menu, 400ms carousel, etc.)",
+    "No console errors, clean well-commented code"
+  ],
+  "par_steps": 25,
+  "source": "https://github.com/DJLougen/t014-aether-notes"
+}
